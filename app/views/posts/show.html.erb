@@ -1,3 +1,5 @@
+<%= link_to 'Изменить статью', edit_post_path(@post) %>
+<%= link_to 'Удалить статью', post_path(@post), method: :delete, data: {confirm: 'Вы уверены что хотите удалить?'} %>
 <h1><%= @post.title %></h1>
 <p><%= @post.summary %></p>
 <p><%= @post.body %></p>
