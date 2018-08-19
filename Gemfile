@@ -38,7 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'carrierwave', '~> 1.0'
-gem "mini_magick"
+gem 'mini_magick'
+gem 'trix', git: 'https://github.com/bcoia/trix.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
